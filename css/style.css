@@ -44,6 +44,7 @@ header .container nav a{
     text-decoration: none;
 }
 
+/* index.html */
 /* banner-1 */
 
 section.banner-1{
@@ -65,13 +66,13 @@ section.banner-1 .container p{
 
 /* servicos */
 
-section.servicos{
+section.servs{
     background-color: #E5E5E5;
     padding: 80px;
 
 }
 
-section.servicos .container h2{
+section.servs .container h2{
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -80,19 +81,19 @@ section.servicos .container h2{
     margin-bottom: 50px;
 }
 
-section.servicos .container .cards{
+section.servs .container .cards{
     display: flex;
     justify-content: space-between;
 }
 
-section.servicos .container .cards article h3{
+section.servs .container .cards article h3{
     font-weight: 700;
     font-size: 25px;
     padding: 10px 0;
     margin: 0;
 }
 
-section.servicos .container .cards article small{
+section.servs .container .cards article small{
     font-weight: 400;
     font-size: 25px;
 }
@@ -132,6 +133,79 @@ section.banner-2 .container .texto p:last-child{
     color: #757575;
     font-weight: 400;
     font-size: 18px;
+}
+
+/* servicos.html */
+/* servicos */
+section.servicos .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+}
+
+section.servicos .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFBE51;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section.servicos .container small{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+section.servicos .container .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.servicos .container .cards article{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.servicos .container .cards .texto h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section.servicos .container .cards article .texto .titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+
+section.servicos .container .cards article img{
+    width: 120px;
+} */
+
+
+/* trabalhe-conosco */
+form input, 
+form textarea, 
+form select{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 20px;
+    resize: none;
+}
+
+form button{
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background-color: #FFBE51;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 /* footer */
