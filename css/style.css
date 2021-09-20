@@ -167,7 +167,16 @@ section.servicos .container .cards{
 section.servicos .container .cards article{
     padding: 80px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-bottom: 5px solid #C4C4C4;
+}
+
+section.servicos .container .cards article:last-of-type{
+    border-bottom: none;
+}
+
+section.servicos .container .cards .texto{
+    width: 530px;
 }
 
 section.servicos .container .cards .texto h2{
@@ -177,16 +186,21 @@ section.servicos .container .cards .texto h2{
     font-size: 40px;
 }
 
+section.servicos .container .cards .texto button{
+    background-color: #FFC107;
+    text-transform: lowercase;
+    border: none;
+    width: 200px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+}
+
 section.servicos .container .cards article .texto .titulo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-/*
-
-section.servicos .container .cards article img{
-    width: 120px;
-} */
 
 
 /* trabalhe-conosco */
