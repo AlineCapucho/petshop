@@ -136,8 +136,8 @@ section.banner-2 .container .texto p:last-child{
 }
 
 /* servicos.html */
-/* servicos */
 section.servicos .container{
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,6 +146,7 @@ section.servicos .container{
 }
 
 section.servicos .container h1{
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
     color: #FFBE51;
@@ -202,8 +203,62 @@ section.servicos .container .cards article .texto .titulo{
     align-items: center;
 }
 
+/* contato.html */
+section.contato .container{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
 
-/* trabalhe-conosco */
+section.contato .container .formulario {
+    max-width: 450px;
+}
+
+section.contato .container .formulario h1{
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFC107;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+section.contato .container .formulario form button{
+    width: 100%;
+    text-transform: lowercase;
+    padding: 10px 30px;
+    background-color: #FFC107;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+section.contato .container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width:500px;
+}
+
+section.contato .container .info ul{
+    list-style: none;
+}
+
+section.contato .container .info ul li{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+section.contato .container .info iframe{
+    margin: 0 0 40px 40px;
+    height: 200px;
+    max-width: 500px;
+}
+
+/* trabalhe-conosco.html */
 form input:not([type="checkbox"]),
 form textarea,
 form select{
