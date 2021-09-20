@@ -21,38 +21,57 @@
             </nav>
         </div>
     </header>
+    
+        <div class="container">
+            <form enctype="multipart/form-data">
+                <label for="nome-completo">Nome Completo</label>
+                <input type="text" name="nome" id="nome-completo" required>
 
-    <div class="container">
-        <form>
-            <label for="nome-completo">Nome Completo</label>
-            <input type="text" name="nome" id="nome-completo" required>
+                <label for="email">Emal</label>
+                <input type="email" name="email" id="email" required>
 
-            <label for="email">Emal</label>
-            <input type="email" name="email" id="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(99) 9999-9999">
 
-            <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" id="telefone" placeholder="(99) 9999-9999">
+                <label for="curriculo">Currículo</label>
+                <input type="file" name="curriculo" id="curriculo" accept="image/*, .pdf" multiple required>
 
-            <label for="curriculo"></label>
-            <input type="file" name="curriculo" id="curriculo">
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao" required maxlength="200"></textarea>
 
-            <label for="descricao">Descrição</label>
-            <textarea name="descricao" id="descricao"></textarea>
+                <label for="data-nascimento">Data de Nascimento</label>
+                <input type="date" name="data-nascimento"id="data-nascimento"> required
 
-            <label for="data-nascimento">Data de Nascimento</label>
-            <input type="date" name="data-nascimento"id="data-nascimento">
+                <label for="carga-horaria">Carga horária</label>
+                <select name="carga-horaria" id="carga-horaria">
+                    <option selected disabled value="">Selecione uma opção</option>
+                    <option value="Tempo Integral">Tempo Integral</option>
+                    <option value="Meio Período">Meio Período</option>
+                    <option value="Freelancer">Freelancer</option>
+                </select>
 
-            <label for="carga-horaria">Carga horária</label>
-            <select name="carga-horaria" id="carga-horaria">
-                <option value="Tempo Integral">Tempo Integral</option>
-                <option value="Meio Período">Meio Período</option>
-                <option value="Freelancer">Freelancer</option>
-            </select>
 
-            <button type="submit">enviar</button>
+                <p>Prefere café ou chá?</p>
 
-        </form>
-    </div>
+                <div class="check">
+                <input type="checkbox" name="preferencia_bebida" id="cafe">
+                <label for="cafe">Café</label>
+                </div>
+
+                <div class="check">
+                <input type="checkbox" name="preferencia_bebida" id="cha">
+                <label for="cha">Chá</label>
+                </div>
+
+                <div class="check">
+                <input type="checkbox" name="preferencia_bebida" id="outros">
+                <label for="outro">Outros</label>
+                </div>
+
+                <button type="submit">enviar</button>
+
+            </form>
+        </div>
 
     <footer >
         <div class="container">
