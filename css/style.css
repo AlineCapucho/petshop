@@ -266,6 +266,66 @@ section.contato .container .info iframe{
     max-width: 500px;
 }
 
+/* login.html */
+section.login h1,
+section.cadastro h1{
+    text-transform: uppercase;
+    color: #FFC107;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+}
+
+section.login .container,
+section.cadastro .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.login .caixa,
+section.cadastro .caixa{
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 400px;
+}
+
+section.login form button,
+section.cadastro form button{
+    width: 100%;
+    text-transform: lowercase;
+    padding: 10px 30px;
+    background-color: #FFC107;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 0;
+    margin-top: 10px;
+}
+section.login form input,
+section.cadastro form input{
+    margin-bottom: 10px;
+}
+
+section.login form,
+section.cadastro form{
+    margin: 30px 30px 30px 30px;
+}
+
+section.login a{
+    text-decoration: none;
+    color: black;
+}
+
+section.cadastro img{
+    height: 80%;
+}
+
 /* trabalhe-conosco.html */
 form input:not([type="checkbox"]),
 form textarea,
